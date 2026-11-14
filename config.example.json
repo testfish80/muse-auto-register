@@ -1,0 +1,18 @@
+{
+  "tempmail_api_key": "YOUR_CHAT_TEMPMAIL_API_KEY",
+  "tempmail_domain": "",
+  "tempmail_expiry": 3600000,
+  "otp_timeout": 180,
+  "otp_sender_contains": "",
+  "otp_subject_contains": "",
+  "proxy": "http://user:pass@host:port",
+  "invite_code": "",
+  "lang": "ja",
+  "impersonate": "chrome131",
+  "first_name": "三郎",
+  "last_name": "近藤",
+  "date_of_birth": "",
+  "send_caa": true,
+  "send_falco": true,
+  "keep_mailbox": false
+}
