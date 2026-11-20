@@ -124,7 +124,7 @@ class MuseClient:
                         headers=self._auth_headers(),
                         data=json.dumps({"otp_code": code,
                                          "remember_device": True,
-                                         "security_key_related_origins": True
+                                         "security_key_related_origins": True,
                                          "supports_muse_link_transparency": True}))
         if r.status_code != 200:
             raise MuseError(f"confirm-otp {r.status_code}: {r.text[:120]}")
